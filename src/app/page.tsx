@@ -42,8 +42,8 @@ const navLinks = [
 ];
 
 const stats = [
-  { value: 15, label: "Projects Completed" },
-  { value: 8, label: "Technologies Mastered" },
+  { value: 8, label: "Projects Completed" },
+  { value: 5, label: "Technologies Mastered" },
   { value: 5, label: "Certifications" },
   { value: 3, suffix: "+", label: "Years Learning" },
 ];
@@ -152,28 +152,28 @@ const skills = [
     title: "AI & Machine Learning",
     description: "Neural networks, predictive modeling, and intelligent systems development.",
     icon: <Brain className="w-6 h-6" />,
-    level: 90,
+    level: 80,
     gradient: "from-amber-500 to-orange-600",
   },
   {
     title: "IoT Development",
     description: "Embedded systems, sensor networks, and connected device solutions.",
     icon: <Wifi className="w-6 h-6" />,
-    level: 85,
+    level: 90,
     gradient: "from-emerald-500 to-green-600",
   },
   {
     title: "Web Development",
     description: "Modern frontend and backend development with responsive design.",
     icon: <Code2 className="w-6 h-6" />,
-    level: 80,
+    level: 90,
     gradient: "from-sky-500 to-blue-600",
   },
   {
     title: "Electrical Engineering",
     description: "Circuit design, power systems, and electrical infrastructure.",
     icon: <CircuitBoard className="w-6 h-6" />,
-    level: 88,
+    level: 95,
     gradient: "from-violet-500 to-purple-600",
   },
 ];
@@ -186,26 +186,26 @@ const techStack = [
 
 const education = [
   {
-    title: "B.E. in Electrical & Electronics Engineering",
-    period: "2021 - Present",
-    detail: "Specializing in AI-powered electrical systems. CGPA: 8.5/10",
+    title: "BE. in Electrical and Electronics Engineering",
+    period: "2022 - 2026",
+    detail: "Ramaiah Institute of Technology, Bengaluru. CGPA: 6.5/10",
   },
   {
-    title: "Pre-University (PUC)",
-    period: "2019 - 2021",
-    detail: "Science stream with Computer Science. Score: 92%",
+    title: "12th Grade (PU Board)",
+    period: "2020 - 2022",
+    detail: "Konnur PU Science College, Jamakhandi. Percentage: 80.83%",
   },
   {
-    title: "Secondary School (10th)",
-    period: "2019",
-    detail: "Score: 90%",
+    title: "10th Grade (CBSE Board)",
+    period: "2016 - 2020",
+    detail: "JNV Belagavi, Chikkodi. Percentage: 87%",
   },
 ];
 
 const certifications = [
-  { title: "Machine Learning Specialization", org: "Coursera - Stanford University" },
-  { title: "IoT & Embedded Systems", org: "NPTEL - IIT" },
-  { title: "Web Development Bootcamp", org: "Udemy" },
+  { title: "Web Development", org: "GENZ Educating Wing" },
+  { title: "Data Analyst", org: "Novi Tech" },
+  { title: "Machine Learning Onramp", org: "MATLAB" },
 ];
 
 /* ─────────────── ANIMATION VARIANTS ─────────────── */
